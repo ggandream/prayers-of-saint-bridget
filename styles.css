@@ -5,10 +5,9 @@
 }
 
 :root {
-  --body-bg: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-  --button-bg: #6e1036; /* Berry */
+  --body-bg: linear-gradient(to right, #45209b, #562ba1);
+  --button-bg: #48106e; /* Berry */
   --article-bg: #231651; /* Russian Violet */
-  --main-bg: #1e035a; /* Deep Twilight */
   --article-title: #d6fff6; /* Mint Green*/
   --article-p: #eaf2ef; /* Twilight */
   --article-footer: #fffaff; /* Ghost White*/
@@ -29,7 +28,6 @@ body {
 }
 
 main {
-  background: var(--main-bg);
   padding: 15px;
   max-width: 945px;
 }
@@ -53,13 +51,13 @@ main {
 .active,
 .prayer-accordion:hover {
   background-color: rgb(9, 0, 64);
-  border: 0.2rem solid #6e1036;
+  border: 0.2rem solid var(--button-bg);
 }
 
 h1 {
   padding: 10px;
   text-align: center;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   color: var(--article-footer);
 }
 
