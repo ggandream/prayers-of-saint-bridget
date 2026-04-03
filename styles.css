@@ -7,7 +7,7 @@
 :root {
   --body-bg: linear-gradient(to right, #45209b, #562ba1);
   --button-bg: #48106e; /* Berry */
-  --article-bg: #231651; /* Russian Violet */
+  --article-bg: rgb(9, 0, 64); /* Russian Violet */
   --article-title: #d6fff6; /* Mint Green*/
   --article-p: #eaf2ef; /* Twilight */
   --article-footer: #fffaff; /* Ghost White*/
@@ -57,7 +57,7 @@ main {
 h1 {
   padding: 10px;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: var(--article-footer);
 }
 
